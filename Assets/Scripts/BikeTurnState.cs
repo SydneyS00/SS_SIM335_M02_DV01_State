@@ -11,7 +11,7 @@ namespace Chapter.State
 
         public void Handle(BikeController bikeController)
         {
-            if(_bikeController)
+            if(!_bikeController)
             {
                 _bikeController = bikeController;
             }
